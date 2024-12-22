@@ -198,7 +198,6 @@ h2.section-title:has(+ h3.section-subtitle) {
     font-size: 18px;
     font-weight: 600;
 }
-
 #footer .copyright {
     text-align: center;
     margin: 2rem 0;
