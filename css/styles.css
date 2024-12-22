@@ -202,3 +202,30 @@ h2.section-title:has(+ h3.section-subtitle) {
     text-align: center;
     margin: 2rem 0;
 }
+
+@media (max-width: 768px) {
+    #header .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    #intro {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    #intro .left,
+    #intro .right {
+        padding: 0 15px;
+    }
+    #intro .right img {
+        max-width: 100%;
+    }
+    .shop,
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+    .footer-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
